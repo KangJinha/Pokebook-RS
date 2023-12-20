@@ -27,3 +27,5 @@ import 'bootstrap/dist/css/bootstrap.min.css';
     "printWidth": 80
 }
 ```
+
+# 프론트 백 같이관리하려면 빌드해서 올려야함
