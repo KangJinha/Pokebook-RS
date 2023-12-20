@@ -1,0 +1,20 @@
+1702943692707	Rename resource 'application.proper'
+1702954601294	Delete element
+1702954942202	Delete element
+1702994095722	Delete element
+1702994101811	Rename package 'com.cos.book.model.dao'
+1702994107717	Rename package 'com.cos.book.model.service'
+1702994121370	Rename package 'com.cos.book.model.dto'
+1702994909914	Rename type 'boardDao'
+1702994914879	Rename type 'boardService'
+1702994919552	Rename type 'boardServiceImpl'
+1702996273328	Rename type 'boardController'
+1702997865138	Delete element
+1702997873588	Delete element
+1702997914523	Delete element
+1702998623008	Delete element
+1702998658104	Delete element
+1703031000720	Rename package 'com.cos.board.controller'
+1703031051651	Rename package 'com.cos.board.model.service'
+1703031060672	Rename package 'com.cos.board.model.dto'
+1703031071572	Rename package 'com.cos.board.model.dao'

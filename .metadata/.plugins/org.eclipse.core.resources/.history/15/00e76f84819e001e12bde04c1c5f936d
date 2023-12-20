@@ -1,0 +1,46 @@
+#server:
+#  servlet:
+#    encoding:
+#      charset: utf-8
+#      enabled: true
+#
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:cosdb
+#    driver-class-name: org.h2.Driver
+#    username: sa
+#    password: 
+#    
+#  jpa:
+#    hibernate:
+#      ddl-auto: create # create, update, none
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+
+server:
+  port: 8080
+#server.port=8080
+
+#spring.datasource.driver-class-name
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: spring
+    password: spring
+    
+# spring.mvc.view.prefix/suffix
+  mvc:
+    view:
+      suffix: .jsp 
+      prefix: /WEB-INF/views/
+      
+#mybatis.mapper-locations=classpath:/mappers/**/*.xml
+#mybatis.config-location=classpath:/config/mybatis-config.xml
+mybatis:
+  mapper-locations: classpath:/mappers/**/*.xml
+  config-location: classpath:/config/mybatis-config.xml
+  
+logging:
+  level:
+    '[com.bs.firstboot]': debug

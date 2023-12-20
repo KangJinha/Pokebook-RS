@@ -1,0 +1,13 @@
+package com.cos.board.model.service;
+
+import java.util.List;
+
+import com.cos.board.model.dto.Board;
+
+public interface boardService {
+	
+	
+	public List<Board> selectAll(){
+		
+	}
+}

@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Helloboot</title>
+</head>
+<body>
+	<h1>열려라!!</h1>
+	<button id="memberall">전체회원조회</button>
+	<a href="${pageContext.request. contextPath}/board/boardlist">게시글</a>
+	<script type="text/javascript">
+		document.querySelector("#memberall")
+		.addEventListener("click",e=>{
+			fetch("${pageContext.request.contextPath}/members")
+			.then(res=>{
+				console.log(res);
+				if(res.status!=200){
+					throw new Error("에러");
+				}
+				return res.json();
+			}).then(data=>{
+				console.log(data);
+			}).catch(e=>{
+				alert(e);
+			});
+		});
+	</script>
+</body>
+</html>

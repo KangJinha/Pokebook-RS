@@ -1,0 +1,21 @@
+package com.cos.board.controller;
+
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.cos.board.model.dto.Board;
+import com.cos.board.model.service.BoardService;
+
+@Controller
+public class boardController {
+
+	private final BoardService service;
+	
+	@GetMapping("/board")
+	public List<Board> selectAll(){
+		List<Board> list = 
+		return 0;
+	}
+}

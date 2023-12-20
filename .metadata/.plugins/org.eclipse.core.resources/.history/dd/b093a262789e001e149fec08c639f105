@@ -1,0 +1,15 @@
+package com.cos.board.model.dao;
+
+import java.util.List;
+
+import com.cos.board.model.dto.Board;
+
+public interface BoardDao {
+	List<Board> selectAll();
+	
+	int insertBoard(Board b);
+	
+	int updateBoard(Board b);
+	
+	int deleteBoard(int num);
+}
