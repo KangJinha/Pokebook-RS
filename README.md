@@ -1,4 +1,4 @@
-##React-Springboot Book 프로젝트
+##React-Springboot PokeBook 프로젝트
 
 ### 스프링부트
 - Springboot ^3.2
