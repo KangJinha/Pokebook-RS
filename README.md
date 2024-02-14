@@ -2,9 +2,8 @@
 
 ### 스프링부트
 - Springboot ^3.2
-- JPA
 - JSP
-- ORACLE (H2)
+- ORACLE
 - Maven
 - Lombok
 
